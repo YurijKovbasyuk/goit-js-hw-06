@@ -22,3 +22,15 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.box {
+  margin: 35px;
+  
+}
+
+.box-img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 25px;
+ 
+}

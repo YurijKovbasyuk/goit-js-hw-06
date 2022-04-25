@@ -16,5 +16,5 @@ const images = [
 const list = images.map((image) => `<li class=box> <img class=box-img src='${image.url}' alt='${image.alt}'>  </img> </li>`).join("");
 console.log(list);
 const item = document.querySelector('.gallery')
-
-item.innerHTML += list
+console.log(item);
+item.insertAdjacentHTML('beforebegin', list)
